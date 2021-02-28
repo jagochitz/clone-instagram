@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: -300px;
+}
+
+.container .instagram-celular img{
+    width: 700px;
+}
+
+.container .instagram-continue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    max-width: 320px;
+    margin-left: -160px;
+    border-radius: 1px;
+}
+
+.container .instagram-continue .instagram-logo {
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-right: 70px;
+}
+
+.container .instagram-continue .instagram-foto-perfil {
+    width: 90px;
+    border-radius: 90px;
+    margin-top: 30px;
+}
+
+.container .instagram-continue .continuar {
+    border: none;
+    background-color: #0095F6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.container .instagram-continue .trocar-conta{
+    margin-bottom: 30px;
+}
+
+.container .instagram-continue p {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.container .instagram-continue a {
+    display: inline-block;
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: bold;
+}
+
+.container .instagram-continue .baixar-app{
+    display: inline-block;
+}
+
+.container .instagram-continue button {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.container .instagram-continue .baixar-app img{
+    width: 130px;
+}
+
+.container .instagram-continue .baixar-app .playstore {
+    margin-right: 30px;
+}
